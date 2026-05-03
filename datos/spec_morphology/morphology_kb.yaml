@@ -1,0 +1,263 @@
+{
+  "kb_version": 1,
+  "source": {
+    "xlsx": "spec/pathologist_morphology.xlsx",
+    "sheets": {
+      "allowed_values": "general_features",
+      "prototypes_normal": "WBC_features",
+      "prototypes_abnormal": "some_abnormal_cell_features"
+    }
+  },
+  "vocab_normalization": "spec/vocab_normalization.yaml",
+  "features": {
+    "size": {
+      "allowed": [
+        "high",
+        "intermediate",
+        "small"
+      ]
+    },
+    "nucleocytoplasmic_ratio": {
+      "allowed": [
+        "high",
+        "moderate",
+        "low"
+      ]
+    },
+    "nucleus_shape": {
+      "allowed": [
+        "regular",
+        "irregular",
+        "indented",
+        "bilobated",
+        "cup-like",
+        "band",
+        "segmented",
+        "non-segmented",
+        "cleaved",
+        "cerebriform",
+        "eccentric",
+        "undefined"
+      ]
+    },
+    "nucleus_segments": {
+      "allowed": [
+        "0",
+        "2",
+        "3-5",
+        ">5",
+        "undefined",
+        "mononuclear"
+      ]
+    },
+    "nuclear_chromatin": {
+      "allowed": [
+        "homogeneous/open/low condensed",
+        "condensed/heterogeneous",
+        "highly condensed"
+      ]
+    },
+    "nucleoli": {
+      "allowed": [
+        "prominent",
+        "inconspicuous",
+        "absent"
+      ]
+    },
+    "cytoplasm_amount": {
+      "allowed": [
+        "scant",
+        "moderate",
+        "wide",
+        "touching rbc"
+      ]
+    },
+    "cytoplasm_color": {
+      "allowed": [
+        "low basophilic",
+        "basophilic",
+        "deeply basophilic",
+        "grayish",
+        "azurophilic",
+        "eosinophilic"
+      ]
+    },
+    "granulation": {
+      "allowed": [
+        "round eosinophilic",
+        "round basophilic",
+        "azurophil",
+        "hypogranulation",
+        "immature",
+        "occasional",
+        "in fine sand",
+        "absent"
+      ]
+    },
+    "inclusions": {
+      "allowed": [
+        "splinters",
+        "auer rods",
+        "vacuoles",
+        "perinuclear hof",
+        "absent"
+      ]
+    },
+    "villi": {
+      "allowed": [
+        "around cytoplasm",
+        "polar location",
+        "absent"
+      ]
+    }
+  },
+  "prototypes": {
+    "normal": {
+      "Neutrophil Segmented": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "low",
+        "nucleus_shape": "segmented",
+        "nucleus_segments": "3-5",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "azurophilic",
+        "granulation": "azurophil",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Neutrophil Band": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "low",
+        "nucleus_shape": "band",
+        "nucleus_segments": "0",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "azurophilic",
+        "granulation": "azurophil",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Eosinophil": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "low",
+        "nucleus_shape": "segmented",
+        "nucleus_segments": "2",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "eosinophilic",
+        "granulation": "round eosinophilic",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Basophil": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "low",
+        "nucleus_shape": "segmented",
+        "nucleus_segments": "undefined",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "azurophilic",
+        "granulation": "round basophilic",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Lymphocyte": {
+        "size": "small",
+        "nucleocytoplasmic_ratio": "high",
+        "nucleus_shape": "regular",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "scant",
+        "cytoplasm_color": "basophilic",
+        "granulation": "occasional",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Monocyte": {
+        "size": "high",
+        "nucleocytoplasmic_ratio": "moderate",
+        "nucleus_shape": "indented",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "homogeneous/open/low condensed",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "moderate",
+        "cytoplasm_color": "grayish",
+        "granulation": "in fine sand",
+        "inclusions": "absent",
+        "villi": "absent"
+      }
+    },
+    "abnormal": {
+      "Reactive Lymphocyte": {
+        "size": "high",
+        "nucleocytoplasmic_ratio": "moderate",
+        "nucleus_shape": "regular",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "homogeneous/open/low condensed",
+        "nucleoli": "absent",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "deeply basophilic",
+        "granulation": "occasional",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Abnormal Promyelocyte": {
+        "size": "high",
+        "nucleocytoplasmic_ratio": "moderate",
+        "nucleus_shape": "irregular",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "homogeneous/open/low condensed",
+        "nucleoli": "inconspicuous",
+        "cytoplasm_amount": "moderate",
+        "cytoplasm_color": "azurophilic",
+        "granulation": "immature",
+        "inclusions": "splinters",
+        "villi": "absent"
+      },
+      "Myeloid Blast": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "high",
+        "nucleus_shape": "regular",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "homogeneous/open/low condensed",
+        "nucleoli": "inconspicuous",
+        "cytoplasm_amount": "scant",
+        "cytoplasm_color": "basophilic",
+        "granulation": "occasional",
+        "inclusions": "auer rods",
+        "villi": "absent"
+      },
+      "Lymphoid Blast": {
+        "size": "small",
+        "nucleocytoplasmic_ratio": "high",
+        "nucleus_shape": "regular",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "homogeneous/open/low condensed",
+        "nucleoli": "inconspicuous",
+        "cytoplasm_amount": "scant",
+        "cytoplasm_color": "basophilic",
+        "granulation": "absent",
+        "inclusions": "absent",
+        "villi": "absent"
+      },
+      "Plasmatic Cell": {
+        "size": "intermediate",
+        "nucleocytoplasmic_ratio": "low",
+        "nucleus_shape": "eccentric",
+        "nucleus_segments": "mononuclear",
+        "nuclear_chromatin": "condensed/heterogeneous",
+        "nucleoli": "inconspicuous",
+        "cytoplasm_amount": "wide",
+        "cytoplasm_color": "deeply basophilic",
+        "granulation": "absent",
+        "inclusions": "perinuclear hof",
+        "villi": "absent"
+      }
+    }
+  }
+}

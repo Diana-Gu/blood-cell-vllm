@@ -1,0 +1,2 @@
+Modelo,clase celular accuracy (%),tamano celular accuracy (%),forma nuclear accuracy (%),cromatina accuracy (%),citoplasma accuracy (%),granulacion accuracy (%),accuracy media atributos (%)
+BLIP+LoRA libre mejorado postprocesado conservador,97.34,96.04,91.39,97.56,82.65,51.66,86.11

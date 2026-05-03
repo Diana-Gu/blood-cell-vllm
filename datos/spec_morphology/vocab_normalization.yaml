@@ -1,0 +1,29 @@
+{
+  "vocab_normalization_version": 1,
+  "value_map": {
+    "> 5": ">5",
+    "3 to 5": "3-5",
+    "Auer rods": "auer rods",
+    "Splinters": "splinters",
+    "Vauoles": "vacuoles",
+    "cup like": "cup-like",
+    "low condensed": "homogeneous/open/low condensed",
+    "round": "regular",
+    "segmented/band": "band",
+    "variable": "undefined",
+    "wde": "wide"
+  },
+  "cell_type_map": {
+    "ABNORMAL PROMYELOCYTE": "Abnormal Promyelocyte",
+    "BASOPHIL": "Basophil",
+    "EOSINOPHIL": "Eosinophil",
+    "LYMPHOCYTE": "Lymphocyte",
+    "LYMPHOID BLAST": "Lymphoid Blast",
+    "MONOCYTE": "Monocyte",
+    "MYELOID BLAST": "Myeloid Blast",
+    "NEUTROPHIL": "Neutrophil Segmented",
+    "NEUTROPHIL - BAND": "Neutrophil Band",
+    "REACTIVE LYMPHOCYTE": "Reactive Lymphocyte",
+    "Neutrophil": "Neutrophil Segmented"
+  }
+}

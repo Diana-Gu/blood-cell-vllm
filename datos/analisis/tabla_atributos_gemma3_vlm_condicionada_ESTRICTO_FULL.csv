@@ -1,0 +1,2 @@
+Modelo,n,clase celular (%),tamano celular (%),forma celular (%),forma nuclear (%),cromatina (%),relacion nucleo citoplasma (%),citoplasma (%),granulacion (%),nucleolos (%),accuracy media atributos (%)
+Gemma 3 4B VLM condicionado por BLIP+LoRA,1543,99.48,92.05,93.94,92.49,92.99,87.89,87.13,87.34,40.82,86.01

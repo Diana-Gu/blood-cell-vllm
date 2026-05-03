@@ -1,0 +1,5 @@
+Modelo,n,% correcto estricto,% error leve atributos,% correcto ampliado,% utilidad alta,% mejora,accuracy media atributos (%)
+BLIP+LoRA base,1543,0.97,34.74,35.71,31.11,31.17,69.34
+BLIP+LoRA conservador,1543,58.85,24.95,83.8,80.95,80.43,86.11
+Gemma 3 4B,1543,39.6,54.44,94.04,69.28,76.02,86.01
+Qwen3-VL fine-tuned,1543,44.65,55.09,99.74,74.72,44.91,48.86

@@ -1,0 +1,192 @@
+{
+  "paper_spec_version": 1,
+  "dataset": {
+    "name": "Acevedo2020 PB cells",
+    "classes": [
+      "Basophil",
+      "Eosinophil",
+      "Erythroblast",
+      "IG",
+      "Lymphocyte",
+      "Monocyte",
+      "Neutrophil",
+      "Platelet"
+    ],
+    "image_size_raw": [360, 363],
+    "image_size_processed": [512, 512],
+    "train_fraction_of_full_dataset": 0.3,
+    "test_fraction_of_train": 0.4,
+    "splits": {
+      "totals": {
+        "train": 4019,
+        "test": 1608,
+        "caption_subset": 800
+      },
+      "per_class": {
+        "Basophil": {
+          "train": 312,
+          "test": 125,
+          "caption_subset": 100
+        },
+        "Eosinophil": {
+          "train": 390,
+          "test": 156,
+          "caption_subset": 100
+        },
+        "Erythroblast": {
+          "train": 361,
+          "test": 144,
+          "caption_subset": 100
+        },
+        "IG": {
+          "train": 307,
+          "test": 123,
+          "caption_subset": 100
+        },
+        "Lymphocyte": {
+          "train": 702,
+          "test": 281,
+          "caption_subset": 100
+        },
+        "Monocyte": {
+          "train": 360,
+          "test": 144,
+          "caption_subset": 100
+        },
+        "Neutrophil": {
+          "train": 717,
+          "test": 287,
+          "caption_subset": 100
+        },
+        "Platelet": {
+          "train": 870,
+          "test": 348,
+          "caption_subset": 100
+        }
+      }
+    }
+  },
+  "training": {
+    "unet_configs": [
+      {
+        "learning_rate": 2e-6,
+        "steps": 3500,
+        "fid": 230,
+        "clip_score": 61.5,
+        "ms_ssim": 0.11,
+        "ms_ssim_std": 0.11
+      },
+      {
+        "learning_rate": 5e-6,
+        "steps": 3500,
+        "fid": 213,
+        "clip_score": 49.2,
+        "ms_ssim": 0.12,
+        "ms_ssim_std": 0.08
+      },
+      {
+        "learning_rate": 2e-6,
+        "steps": 25000,
+        "fid": 134,
+        "clip_score": 13.6,
+        "ms_ssim": 0.20,
+        "ms_ssim_std": 0.09
+      },
+      {
+        "learning_rate": 5e-6,
+        "steps": 25000,
+        "fid": 89,
+        "clip_score": 3.3,
+        "ms_ssim": 0.29,
+        "ms_ssim_std": 0.09
+      },
+      {
+        "learning_rate": 2e-6,
+        "steps": 60000,
+        "fid": 76,
+        "clip_score": 3.1,
+        "ms_ssim": 0.30,
+        "ms_ssim_std": 0.05
+      },
+      {
+        "learning_rate": 5e-6,
+        "steps": 60000,
+        "fid": 62,
+        "clip_score": 2.6,
+        "ms_ssim": 0.31,
+        "ms_ssim_std": 0.06
+      }
+    ],
+    "text_encoder_configs": [
+      {
+        "learning_rate": 1e-6,
+        "steps": 350,
+        "fid": 239,
+        "clip_score": 52.8,
+        "ms_ssim": 0.07,
+        "ms_ssim_std": 0.08
+      },
+      {
+        "learning_rate": 1e-6,
+        "steps": 1500,
+        "fid": 87,
+        "clip_score": 2.8,
+        "ms_ssim": 0.28,
+        "ms_ssim_std": 0.09
+      },
+      {
+        "learning_rate": 1e-6,
+        "steps": 15000,
+        "fid": 68,
+        "clip_score": 2.1,
+        "ms_ssim": 0.34,
+        "ms_ssim_std": 0.10
+      }
+    ]
+  },
+  "inference": {
+    "configs": [
+      {
+        "cfg_scale": 8.5,
+        "sampler": "DPM",
+        "fid": 67,
+        "clip_score": 3.3,
+        "ms_ssim": 0.25,
+        "ms_ssim_std": 0.02
+      },
+      {
+        "cfg_scale": 7.0,
+        "sampler": "Karras",
+        "fid": 81,
+        "clip_score": 7.3,
+        "ms_ssim": 0.21,
+        "ms_ssim_std": 0.03
+      },
+      {
+        "cfg_scale": 7.5,
+        "sampler": "Euler a",
+        "fid": 101,
+        "clip_score": 13.4,
+        "ms_ssim": 0.19,
+        "ms_ssim_std": 0.04
+      }
+    ]
+  },
+  "models": {
+    "stable_diffusion": {
+      "compared": ["sd-1.5", "sd-2.1"],
+      "selected": "sd-2.1",
+      "finetune_method": "dreambooth",
+      "precision": "fp16"
+    }
+  },
+  "sources": {
+    "paper_tex": "paper/TAI_template.tex",
+    "tables": {
+      "dataset": "table:questions",
+      "unet_config": "table:unet_config",
+      "text_config": "table:text_config",
+      "inference_config": "table:inference_config"
+    }
+  }
+}

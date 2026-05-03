@@ -1,0 +1,22 @@
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# modelos grandes
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# datos pesados
+datasets/
+outputs/
+cache/
+
+# logs
+wandb/
+runs/
+
+# secretos
+.env
