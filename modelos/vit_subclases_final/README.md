@@ -71,4 +71,8 @@ Máster en Bioinformática y Bioestadística
 
 Universitat Oberta de Catalunya (UOC)
 
-2025
+## Director
+
+**Edwin Santiago Alférez Baquero**
+
+18 Junio 2026
