@@ -1,2 +1,0 @@
-Modelo,n,% correcto,% error leve atributos,% correcto ampliado,% descripcion generica,% error clasificacion,% repeticion,% incoherencia semantica,% utilidad alta,% mejora,% igual,% empeora
-Gemma 3 4B VLM condicionado por BLIP+LoRA (estricto FULL),1543,39.6,54.44,94.04,1.56,0.13,1.56,2.72,69.28,76.02,8.04,15.94

@@ -1,4 +1,0 @@
-Comparación,Delta correcto ampliado,Delta utilidad alta,Delta mejora,Delta accuracy atributos
-BLIP conservador - BLIP base,48.09,49.84,49.26,16.77
-Gemma - BLIP conservador,10.24,-11.67,-4.41,-0.1
-Qwen - BLIP conservador,15.94,-6.23,-35.52,-37.25

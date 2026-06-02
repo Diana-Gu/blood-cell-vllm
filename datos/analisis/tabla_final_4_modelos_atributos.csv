@@ -1,8 +1,0 @@
-Atributo,BLIP+LoRA base (%),BLIP+LoRA conservador (%),Gemma 3 4B (%),Qwen3-VL fine-tuned (%)
-clase celular,99.35,97.34,99.48,99.61
-tamano celular,94.82,96.04,92.05,6.04
-forma nuclear,90.25,91.39,92.49,57.19
-cromatina,92.65,97.56,92.99,50.62
-citoplasma,84.38,82.65,87.13,47.27
-granulacion,43.94,51.66,87.34,32.4
-MEDIA,69.34,86.11,86.01,48.86

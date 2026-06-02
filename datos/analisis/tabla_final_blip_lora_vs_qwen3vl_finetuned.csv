@@ -1,3 +1,0 @@
-Modelo,n,% correcto global,% utilidad alta,% mejora,% descripcion generica,% incoherencia semantica,% repeticion,accuracy media atributos (%)
-BLIP+LoRA libre mejorado,1543,0.97,31.11,31.17,1.36,26.51,36.42,69.34
-Qwen3-VL fine-tuned libre,25,100.0,100.0,100.0,0.0,0.0,0.0,100.0
