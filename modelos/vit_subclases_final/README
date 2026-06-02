@@ -1,0 +1,19 @@
+# BLIP + LoRA Híbrido
+
+Modelo BLIP adaptado mediante LoRA para la generación automática de descripciones morfológicas de células sanguíneas.
+
+## Descripción
+
+El modelo combina generación de lenguaje natural con condicionamiento mediante información morfológica y de clasificación celular.
+
+Fue utilizado para producir descripciones automáticas evaluadas posteriormente mediante auditoría semántica automática.
+
+## Resultados
+
+* Correcto ampliado: 83.80 %
+* Utilidad alta: 80.95 %
+* Accuracy por atributos: 86.11 %
+
+## Disponibilidad
+
+Los pesos entrenados no se distribuyen públicamente.
