@@ -89,7 +89,7 @@ Aunque Qwen3-VL obtuvo una elevada tasa de generación de descripciones consider
 | Cromatina | 92.65 | 97.56 | 92.99 | 50.62 |
 | Citoplasma | 84.38 | 82.65 | 87.13 | 47.27 |
 | Granulación | 43.94 | 51.66 | 87.34 | 32.40 |
-| **Media** | **69.34** | **86.11** | **86.01** | **48.86** |
+
 
 Los resultados muestran que el rendimiento no fue homogéneo entre atributos morfológicos, observándose mayores dificultades en la identificación de la granulación y, en menor medida, del citoplasma.
 
