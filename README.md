@@ -115,8 +115,8 @@ blood-cell-vllm/
 │   └── codigo_pulido.ipynb
 │
 ├── modelos/
-│   ├── vit_subclases_final/
-│   └── blip_lora_hibrido_final/
+│   ├── vit_subclases_final/README.md
+│   └── blip_lora_hibrido_final/README.md
 │
 ├── figuras/
 │   ├── matriz_confusion_vit.png
