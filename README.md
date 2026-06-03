@@ -110,9 +110,11 @@ El repositorio incluye figuras y análisis complementarios desarrollados durante
 
 ```text
 blood-cell-vllm/
-│
+├── memoria
+│   └── Diana_Gutierrez_TFM
 ├── codigo/
-│   └── codigo_pulido.ipynb
+│   ├── blip_lora_libre_hibrido_gemma_qwen.ipynb
+│   └── vit_blip_base_libre.ipynb
 │
 ├── modelos/
 │   ├── vit_subclases_final/README.md
