@@ -137,7 +137,7 @@ blood-cell-vllm/
 │   └── pipeline_multimodal_hematologia.png
 │
 └── README.md
-
+```
 ...
 ## Datos
 
