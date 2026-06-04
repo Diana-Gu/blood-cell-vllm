@@ -137,34 +137,17 @@ blood-cell-vllm/
 │   └── pipeline_multimodal_hematologia.png
 │
 └── README.md
-```
 
 ...
 ## Datos
 
 El dataset utilizado en este trabajo procede de un entorno hospitalario y está sujeto a restricciones de acceso. Por este motivo, las imágenes originales y los datasets empleados durante los experimentos no forman parte de los materiales incluidos en este repositorio.
 
-## Disponibilidad de datos y materiales
+**Disponibilidad de datos y materiales**
 
 Debido a las restricciones de acceso aplicables a datos biomédicos procedentes de entornos hospitalarios, las imágenes microscópicas originales, las anotaciones asociadas y parte de los recursos utilizados durante los experimentos no se distribuyen junto con este repositorio.
 
 En consecuencia, el contenido publicado constituye una versión parcial del entorno experimental desarrollado para este trabajo.
-
----
-
----
-## Autoría y uso académico
-
-© 2026 Diana Gutiérrez Martínez
-
-Este repositorio contiene materiales desarrollados en el marco del Trabajo Fin de Máster *"Evaluación y fine-tuning de modelos visión-lenguaje para la mejora del análisis morfológico en hematología digital"*.
-
-**Autora:** Diana Gutiérrez Martínez
-**Dirección académica:** Dr. Edwin Santiago Alférez Baquero
-
-Salvo indicación expresa de la autora, no se autoriza la reproducción, distribución o reutilización total o parcial del código, documentación, figuras o materiales incluidos en este repositorio.
-
-Todos los derechos reservados.
 
 ---
 
@@ -185,3 +168,20 @@ Universitat Oberta de Catalunya (UOC)
 ## Director
 
 **Edwin Santiago Alférez Baquero**
+
+---
+
+## Autoría y uso académico
+
+© 2026 Diana Gutiérrez Martínez
+
+Este repositorio contiene materiales desarrollados en el marco del Trabajo Fin de Máster *"Evaluación y fine-tuning de modelos visión-lenguaje para la mejora del análisis morfológico en hematología digital"*.
+
+**Autora:** Diana Gutiérrez Martínez
+**Dirección académica:** Dr. Edwin Santiago Alférez Baquero
+
+Salvo indicación expresa de la autora, no se autoriza la reproducción, distribución o reutilización total o parcial del código, documentación, figuras o materiales incluidos en este repositorio.
+
+Todos los derechos reservados.
+
+---
