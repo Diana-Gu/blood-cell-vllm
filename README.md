@@ -1,4 +1,4 @@
-# Análisis Multimodal de Células Sanguíneas
+# Evaluación y fine-tuning de modelos visión-lenguaje para la mejora del análisis morfológico en hematología digital.
 
 Repositorio asociado al Trabajo Fin de Máster centrado en la clasificación celular y la generación automática de descripciones morfológicas mediante modelos de visión y lenguaje.
 
@@ -15,6 +15,17 @@ El proyecto integra técnicas de visión por computador, modelos visión-lenguaj
 - Analizar el rendimiento global y por atributos morfológicos.
 
 ---
+
+---
+
+## Pipeline propuesto
+
+![Pipeline](figuras/pipeline_multimodal_hematologia.png)
+
+---
+
+
+
 
 ## Arquitectura general
 
