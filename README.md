@@ -139,11 +139,16 @@ blood-cell-vllm/
 └── README.md
 ```
 
----
-
+...
 ## Datos
 
 El dataset utilizado en este trabajo procede de un entorno hospitalario y está sujeto a restricciones de acceso. Por este motivo, las imágenes originales y los datasets empleados durante los experimentos no forman parte de los materiales incluidos en este repositorio.
+
+## Disponibilidad de datos y materiales
+
+Debido a las restricciones de acceso aplicables a datos biomédicos procedentes de entornos hospitalarios, las imágenes microscópicas originales, las anotaciones asociadas y parte de los recursos utilizados durante los experimentos no se distribuyen junto con este repositorio.
+
+En consecuencia, el contenido publicado constituye una versión parcial del entorno experimental desarrollado para este trabajo.
 
 ---
 
