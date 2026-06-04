@@ -158,7 +158,7 @@ Máster en Bioinformática y Bioestadística
 
 Universitat Oberta de Catalunya (UOC)
 
-2025
+18 junio 2026
 
 ---
 
