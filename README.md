@@ -147,6 +147,22 @@ El dataset utilizado en este trabajo procede de un entorno hospitalario y está 
 
 ---
 
+---
+## Autoría y uso académico
+
+© 2026 Diana Gutiérrez Martínez
+
+Este repositorio contiene materiales desarrollados en el marco del Trabajo Fin de Máster *"Evaluación y fine-tuning de modelos visión-lenguaje para la mejora del análisis morfológico en hematología digital"*.
+
+**Autora:** Diana Gutiérrez Martínez
+**Dirección académica:** Dr. Edwin Santiago Alférez Baquero
+
+Salvo indicación expresa de la autora, no se autoriza la reproducción, distribución o reutilización total o parcial del código, documentación, figuras o materiales incluidos en este repositorio.
+
+Todos los derechos reservados.
+
+---
+
 ## Autor
 
 **Diana Gutiérrez Martínez**
