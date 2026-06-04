@@ -1,7 +1,6 @@
 # Evaluación y fine-tuning de modelos visión-lenguaje para la mejora del análisis morfológico en hematología digital.
 
-Repositorio asociado al Trabajo Fin de Máster centrado en la clasificación celular y la generación automática de descripciones morfológicas mediante modelos de visión y lenguaje.
-
+Repositorio asociado al Trabajo Fin de Máster centrado en la evaluación, validación y mejora de descripciones morfológicas generadas por modelos visión-lenguaje en hematología digital.
 El proyecto integra técnicas de visión por computador, modelos visión-lenguaje y evaluación semántica automática para el análisis morfológico de células sanguíneas.
 
 ---
