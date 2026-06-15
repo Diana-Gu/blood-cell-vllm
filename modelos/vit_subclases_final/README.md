@@ -57,7 +57,7 @@ El modelo obtuvo un rendimiento elevado en la clasificación de subtipos celular
 
 ## Disponibilidad
 
-Los pesos entrenados, imágenes originales y conjuntos de datos utilizados durante el entrenamiento no se distribuyen públicamente debido a restricciones de acceso asociadas al origen hospitalario de los datos.
+Los datos utilizados durante el entrenamiento no se distribuyen públicamente debido a restricciones de acceso y confidencialidad.
 
 ---
 
