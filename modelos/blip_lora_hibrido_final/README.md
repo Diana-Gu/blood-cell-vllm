@@ -6,9 +6,9 @@ Modelo desarrollado a partir de un experimento basado en **BLIP adaptado mediant
 
 ## Descripción
 
-Este modelo corresponde a la variante híbrida desarrollada durante el Trabajo Fin de Máster. A diferencia de la generación libre, el enfoque híbrido incorpora información morfológica y de clasificación celular para guiar la generación de descripciones más precisas y útiles desde el punto de vista hematológico.
+Modelo multimodal basado en BLIP adaptado mediante LoRA para la generación automática de descripciones morfológicas de células sanguíneas a partir de imágenes microscópicas.
 
-El objetivo fue mejorar la calidad descriptiva y la concordancia con los atributos morfológicos presentes en las imágenes microscópicas.
+La aproximación híbrida incorpora información visual y contexto celular para producir descripciones más precisas y consistentes desde el punto de vista morfológico.
 
 ---
 
@@ -24,7 +24,7 @@ Clasificación celular (ViT)
 Generación con BLIP + LoRA
         │
         ▼
-Condicionamiento híbrido
+Integración de contexto adicional
         │
         ▼
 Descripción morfológica final
@@ -36,7 +36,7 @@ Descripción morfológica final
 
 - Modelo base: BLIP
 - Adaptación: LoRA
-- Tipo de experimento: Generación híbrida condicionada
+- Tipo de experimento: Generación de descripciones morfológicas
 - Dominio: Hematología digital
 - Entrada: Imagen microscópica y contexto morfológico
 - Salida: Descripción morfológica automática
@@ -56,13 +56,15 @@ Descripción morfológica final
 
 ## Resultados
 
-El modelo mostró una mejora sustancial respecto a las variantes de generación libre, alcanzando elevados niveles de concordancia en la identificación de atributos morfológicos y una mayor utilidad descriptiva global.
+El modelo mostró una mejora significativa respecto a enfoques de generación más simples, alcanzando elevados niveles de concordancia en la identificación de atributos morfológicos y una mayor utilidad descriptiva global.
 
 ---
 
-## Disponibilidad
+## Reproducibilidad
 
-Los pesos entrenados, imágenes originales y conjuntos de datos utilizados durante el entrenamiento no se distribuyen públicamente debido a restricciones de acceso asociadas al origen hospitalario de los datos.
+El repositorio incluye la arquitectura general, el flujo experimental y los componentes principales utilizados durante el desarrollo.
+
+Determinados recursos, modelos entrenados y conjuntos de datos no se distribuyen públicamente debido a restricciones de acceso y confidencialidad..
 
 ---
 
