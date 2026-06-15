@@ -25,7 +25,7 @@ Predicción de la clase celular
         │
         ▼
 Generación de descripción morfológica
-(BLIP+LoRA, Gemma 3 4B VLM, Qwen3-VL)
+(Modelos multimodales visión-lenguaje)
 ```
 
 ---
