@@ -36,11 +36,9 @@ Clasificación celular (ViT)
         │
         ▼
 Generación y refinamiento de descripciones
-(BLIP, BLIP + LoRA, Gemma 3 4B, Qwen3-VL)
         │
         ▼
 Evaluación semántica y análisis de concordancia
-(Gemini-3-flash-preview, Qwen2.5-VL)
         │
         ▼
 Análisis final
@@ -57,14 +55,13 @@ Análisis final
 ### Generación y refinamiento de descripciones
 
 - BLIP
-- BLIP + LoRA
-- Gemma 3 4B VLM condicionado
-- Qwen3-VL fine-tuned
+- Modelos multimodales visión-lenguaje adaptados
+- Modelos de razonamiento multimodal
 
 ### Evaluación y validación
 
-- Gemini-3-flash-preview
-- Qwen2.5-VL
+- Evaluación semántica automatizada
+- Análisis de concordancia entre modelos
 
 ---
 
@@ -83,15 +80,15 @@ Análisis final
 |---|---:|---:|---:|---:|
 | BLIP+LoRA libre base | 35.71 | 31.11 | 31.17 | 69.34 |
 | BLIP+LoRA híbrido | 83.80 | 80.95 | 47.71 | 86.11 |
-| Gemma 3 4B VLM condicionado | 94.04 | 69.28 | 70.32 | 86.01 |
-| Qwen3-VL fine-tuned | 99.74 | 74.72 | 99.74 | 48.86 |
+| Gemma 3 | 94.04 | 69.28 | 70.32 | 86.01 |
+| Qwen3-VL | 99.74 | 74.72 | 99.74 | 48.86 |
 
 
 Aunque Qwen3-VL obtuvo una elevada tasa de generación de descripciones consideradas correctas a nivel global, mostró limitaciones en la identificación explícita de atributos morfológicos específicos, lo que redujo significativamente su accuracy por atributo.
 
 ### Rendimiento por atributo morfológico
 
-| Atributo | BLIP+LoRA libre base | BLIP+LoRA híbrido | Gemma 3 4B VLM | Qwen3-VL |
+| Atributo | BLIP+LoRA libre base | BLIP+LoRA híbrido | Gemma 3 | Qwen3-VL |
 |-----------|----------:|----------:|----------:|----------:|
 | Clase celular | 99.35 | 97.34 | 99.48 | 99.61 |
 | Tamaño celular | 94.82 | 96.04 | 92.05 | 6.04 |
@@ -127,13 +124,11 @@ blood-cell-vllm/
 │   └── vit_blip_base_libre.ipynb
 │
 ├── modelos/
-│   ├── vit_subclases_final/README.md
 │   └── blip_lora_hibrido_final/README.md
 │
 ├── figuras/
 │   ├── matriz_confusion_vit.png
 │   ├── heatmap_accuracy_atributos.png
-│   ├── diagrama_aluvial_concordancia.png
 │   └── pipeline_multimodal_hematologia.png
 │
 └── README.md
@@ -141,13 +136,13 @@ blood-cell-vllm/
 ...
 ## Datos
 
-El dataset utilizado en este trabajo procede de un entorno hospitalario y está sujeto a restricciones de acceso. Por este motivo, las imágenes originales y los datasets empleados durante los experimentos no forman parte de los materiales incluidos en este repositorio.
+Determinados recursos utilizados durante el desarrollo del proyecto, incluidos los conjuntos de datos experimentales, no se distribuyen en esta versión pública del repositorio.
 
 **Disponibilidad de datos y materiales**
 
-Debido a las restricciones de acceso aplicables a datos biomédicos procedentes de entornos hospitalarios, las imágenes microscópicas originales, las anotaciones asociadas y parte de los recursos utilizados durante los experimentos no se distribuyen junto con este repositorio.
+Algunos de los recursos empleados durante el desarrollo, entrenamiento y evaluación de los modelos no forman parte de esta versión pública del repositorio.
 
-En consecuencia, el contenido publicado constituye una versión parcial del entorno experimental desarrollado para este trabajo.
+Por este motivo, el material disponible representa una versión parcial del entorno experimental utilizado en el presente trabajo.
 
 ---
 
